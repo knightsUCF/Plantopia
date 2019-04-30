@@ -1,6 +1,42 @@
 # Plantopia
 
 
+
+# To Do 
+
+- create terrain like in the island tutorial and Train Valley 2
+
+- create a satisfying planting mechanism:
+
+  - tap on device to plant with a plopping sound
+  
+  - begin timer to grow
+  
+  - "pop" out plant (game juice / sugar) when done growing
+  
+  - harvest plant by tapping for money (each individually)
+  
+- allow to buy land parcel box
+
+- allow to buy seeds
+
+- show tokens on screen
+
+
+
+
+
+
+
+
+Low Poly Island Blender Tutorial (just like Train Valley 2)
+
+https://www.youtube.com/watch?v=0lj643VmTsg
+
+
+
+
+
 Corn
 
 https://sketchfab.com/3d-models/corn-d7f4f93c3a0e433888cbffe41ac1d2bd

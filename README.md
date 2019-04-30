@@ -8,7 +8,7 @@
 
 - create a satisfying planting mechanism:
 
-  - tap on device to plant with a plopping sound
+  - tap on device to plant with a plopping sound (can pop lips)
   
   - begin timer to grow
   

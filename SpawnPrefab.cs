@@ -10,7 +10,10 @@ using UnityEngine;
 public class SpawnPrefab : MonoBehaviour
 {
 
-    public GameObject prefab;
+    public GameObject BlueCube;
+    public GameObject GreenCube;
+
+
 
     RaycastHit hit;
 
@@ -20,7 +23,7 @@ public class SpawnPrefab : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Left mouse clicked");
+            // Debug.Log("Left mouse clicked");
             // RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -28,8 +31,17 @@ public class SpawnPrefab : MonoBehaviour
             {
                 if (hit.transform.name == "platform")
                 {
-                    Instantiate(prefab, hit.point, Quaternion.identity);
-                    print("spawning");
+                    if (Data.buttonSelection == Data.ButtonSelection.BlueCube)
+                    {
+                        Instantiate(BlueCube, hit.point, Quaternion.identity);
+                    }
+
+                    if (Data.buttonSelection == Data.ButtonSelection.GreenCube)
+                    {
+                        Instantiate(GreenCube, hit.point, Quaternion.identity);
+                    }
+
+               
                 }
             }
         }
@@ -49,8 +61,8 @@ public class SpawnPrefab : MonoBehaviour
 
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
 
-            if (touch.phase == TouchPhase.Began && hit.transform.name == "platform")
-                Instantiate(prefab, touchPos, Quaternion.identity);
+            if (touch.phase == TouchPhase.Began && hit.transform.name == "platform") { }
+            // Instantiate(prefab, touchPos, Quaternion.identity);
         }
 
     }
@@ -59,8 +71,8 @@ public class SpawnPrefab : MonoBehaviour
 
     void Update()
     {
-        // MouseSpawn();
-        TouchSpawn();
+        MouseSpawn();
+        // TouchSpawn();
     }
 
 

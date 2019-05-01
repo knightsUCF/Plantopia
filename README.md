@@ -63,6 +63,25 @@
 
 - we will eventually automate the farm, so stuff like watering, solar power energy, we will have auto yields like in Factorio
 
+- so what is next on the todo:
+
+
+  - model the island (blender tutorial)
+  - model workers (sebastian lague tutorial)
+  - choose a sexy menu (maybe Train Valley 2 for now)
+  - this will begin to look like a game
+  - maybe even have a score
+  - add sound effects
+  - create growth mechanism for plants
+  - create mechanism to set down new box gardens
+  - create graphic for when the earth is first tilled
+  - create action mechanism for workers to go near tilling earth spots and show tilling earth icon until the animation is ready
+  - create different plants that will grow after the time cycle, although vary their height so they don't look so mechanical
+  - allow to sell harvest for more money
+  - more money can pay for increased workers, getting rid of the labor bottleneck for advancing gameplay
+  - offer upgrades like solar power, automatic watering, tractor, etc
+  - 
+
 
 
 

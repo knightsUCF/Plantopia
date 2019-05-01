@@ -45,7 +45,13 @@
 
 - when a workers is doing an action like tilling the earth, before we can get animations going, we can simply display an overhead icon of what the worker is doing, so a shovel for tilling the earth for example
 
-- 
+- modeling the island in blender will help with visuals
+
+- a nice menu will also help with the game appearance
+
+- island + nice menu = presentable game
+
+
 
 
 

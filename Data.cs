@@ -7,7 +7,8 @@ using System.Collections;
 public class Data : Singleton<Data>
 {
 
-    // public static int tokens = 100;
+
+    // menu
 
     public enum ButtonSelection
     {
@@ -16,6 +17,18 @@ public class Data : Singleton<Data>
     }
 
     public static ButtonSelection buttonSelection;
+
+
+
+    // tokens
+
+    public static int tokens = 100;
+
+
+
+    // tilling 
+
+    public static Vector3 tillingSpot = new Vector3(0.0f, 0.0f, 0.0f);
 
 
 

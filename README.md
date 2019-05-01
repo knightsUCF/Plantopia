@@ -59,7 +59,11 @@
 
 - and we want to set up the growing mechanism
 
-- 
+- RESEARCH: watch videos of people on farms / industrial farms to check what we can model in 3D, and what sort of mechanisms we can implement
+
+- we will eventually automate the farm, so stuff like watering, solar power energy, we will have auto yields like in Factorio
+
+
 
 
 

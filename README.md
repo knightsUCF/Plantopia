@@ -80,6 +80,11 @@
   - allow to sell harvest for more money
   - more money can pay for increased workers, getting rid of the labor bottleneck for advancing gameplay
   - offer upgrades like solar power, automatic watering, tractor, etc
+  - create info panels for the different plants that show how easy certain plants are to grow, their yield, their sell potential etc
+  - potatoes are easy, because we only show the top of the plant, while the potatoes are buried underground, check reference sources
+  - garlic
+  - also have shifting supply / demand cycles where prices change for what we can get
+  - can set up wind power
   - 
 
 

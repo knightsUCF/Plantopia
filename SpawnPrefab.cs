@@ -33,15 +33,19 @@ public class SpawnPrefab : MonoBehaviour
                 {
                     if (Data.buttonSelection == Data.ButtonSelection.BlueCube)
                     {
+                        if (Data.tokens <= 0) return; // not sure if this is in the right spot - we also need to check for odd amounts that only get us past zero on the last build action #Todo
+                        // do a check if enough resources, if not enough notify the player
+                        // and also return without instantiating
+                        Data.tokens -= Settings.BuildingCost; // we would pull the cost out of a settings file, perhaps settings can be in data simply
                         Instantiate(BlueCube, hit.point, Quaternion.identity);
                     }
 
                     if (Data.buttonSelection == Data.ButtonSelection.GreenCube)
                     {
+                        if (Data.tokens <= 0) return;
+                        Data.tokens -= Settings.BuildingCost; 
                         Instantiate(GreenCube, hit.point, Quaternion.identity);
                     }
-
-               
                 }
             }
         }

@@ -88,6 +88,8 @@
   - we need enough actions to fill up gameplay, so the players are not just waiting around for their farms to grow
   - check games like Sid Meiers Golf, and others, how do they fill out gameplay, since those games were old and short on graphics
   - if the pay is low perhaps certain workers will quit
+  - perhaps can even build worker's cabins, so you get a bonus when they stay near their field
+  
   
   
   

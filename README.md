@@ -51,6 +51,16 @@
 
 - island + nice menu = presentable game
 
+- at first we will just be planting box gardens
+
+- tractor and then solar for power and the water tanks like in RimWorld
+
+- so at first we want a few box gardens with different seeds 
+
+- and we want to set up the growing mechanism
+
+- 
+
 
 
 

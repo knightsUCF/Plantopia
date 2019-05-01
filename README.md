@@ -27,6 +27,32 @@
 
 
 
+# May 1
+
+- okay, so some of the basics are established
+
+- not sure whether this will be a mobile or steam early access game yet
+
+- we have the workers going, raycasts to guide them, token count, menu for choosing planting, a data and a settings file, so the basics are here
+
+- we would like to do something similar to Rimworld, where we can to the nerdy nitty gritty aspect of a simulation
+
+- so as we plant more fields we will need to hire more workers, workers subtract costs out of our tokens on a cyclical basis
+
+- need a separate menu for generating workers like in RTS games, check out their menus how to group
+
+- don't be overly concerned about the menu layout since that will change menu times
+
+- when a workers is doing an action like tilling the earth, before we can get animations going, we can simply display an overhead icon of what the worker is doing, so a shovel for tilling the earth for example
+
+- 
+
+
+
+
+
+
+
 
 
 Low Poly Island Blender Tutorial (just like Train Valley 2)

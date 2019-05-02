@@ -37,7 +37,8 @@
  #endif
  
  [ExecuteInEditMode]
- public class UniqueId : MonoBehaviour {
+ // public class UniqueId : MonoBehaviour {
+ public class ID : MonoBehaviour { // PK 
  
      // global lookup of IDs to Components - we can esnure at edit time that no two 
      // components which are loaded at the same time have the same ID. 

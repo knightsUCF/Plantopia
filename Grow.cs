@@ -14,15 +14,25 @@ public class Grow : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(StartGrowing());
+        StartCoroutine(GrowToStage2());
     }
 
 
-    IEnumerator StartGrowing()
+    IEnumerator GrowToStage2()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(Settings.GrowthTime);
+
         Destroy(GrowthStage1);
         Instantiate(GrowthStage2, gameObject.transform.position, Quaternion.identity, this.transform);
+        // GrowToStage3();
+    }
+
+    IEnumerator GrowToStage3()
+    {
+        yield return new WaitForSeconds(Settings.GrowthTime);
+        
+        Destroy(GrowthStage2);
+        Instantiate(GrowthStage3, gameObject.transform.position, Quaternion.identity, this.transform);
     }
 
     

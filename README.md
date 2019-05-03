@@ -48,7 +48,7 @@ The Goal right now is to:
 
 - fix the starting screen flicker
 
-- have the theme score going at the menu titles screen
+- have the theme score going at the menu titles screen (analyze progressions with UChord to get the chord sheets)
 
 
 

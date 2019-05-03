@@ -44,7 +44,9 @@ The Goal right now is to:
 
 - add a "Quit game? Yes or Cancel" functional enough for now, check how others do this
 
-- load straight in without the user having to select the resolution, leave that up to them in the settings of the game (can we do this?) -- or detect the users specs and pick a good generic starting one, and they can up the settings on their own in the game's graphics settings (like basic, good, very good,
+- load straight in without the user having to select the resolution, leave that up to them in the settings of the game (can we do this?) -- or detect the users specs and pick a good generic starting one, and they can up the settings on their own in the game's graphics settings (like basic, good, very good)
+
+- fix the starting screen flicker
 
 
 

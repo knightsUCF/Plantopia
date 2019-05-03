@@ -34,6 +34,10 @@ The Goal right now is to:
 
 - add functionality for menu settings (ex. turn off score, adjust the volume)
 
+- add basic sound effects right away, like game startup chime (gives a sense of passage), selection clicking, building start
+
+- add random score right away off YouTube as temp music...
+
 
 
 

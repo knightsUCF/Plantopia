@@ -16,6 +16,8 @@ The Goal right now is to:
 
 - sync data to DataBaseManager
 
+- a start game setup settings screen
+
 - model a landscape in Blender, along with a builder character
 
 - move the character around through animation by point and clicking

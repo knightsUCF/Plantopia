@@ -97,6 +97,8 @@ The Goal right now is to:
   - classy proportions of game characters like in LOTR
   
   - the island could be one of the settings, get to choose the starting world map for the farm, so we could even later in game be able to select a new area, this time a forest, and set up a farm there, then we could switch between our two farms for increased gameplay per time
+  
+  - make the kind of game someone would say they would bring to a deserted island
 
 
 ///////////////////////////////////////////////////////

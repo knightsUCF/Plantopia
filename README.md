@@ -38,6 +38,12 @@ The Goal right now is to:
 
 - add random score right away off YouTube as temp music...
 
+- if the player selects "Continue Game" we can pick up where we left by saving the data into the DataBaseManager.cs
+
+- there is also a place where the player can go through previous different saves and their saved game titles given out by the player
+
+
+
 
 
 

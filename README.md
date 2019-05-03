@@ -42,6 +42,9 @@ The Goal right now is to:
 
 - there is also a place where the player can go through previous different saves and their saved game titles given out by the player
 
+- add a "Quit game? Yes or Cancel" functional enough for now, check how others do this
+
+
 
 
 

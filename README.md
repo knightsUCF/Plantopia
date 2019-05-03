@@ -4,6 +4,34 @@
 
 # To Do 
 
+
+
+
+
+
+# 05 03
+
+
+The Goal right now is to:
+
+- model a landscape in Blender, along with a builder character
+
+- move the character around through animation by point and clicking
+
+- have the character tend to the farms
+
+- create a good enough menu for now
+
+
+
+
+
+* end *
+
+
+
+
+
 - create terrain like in the island tutorial and Train Valley 2
 
 - create a satisfying planting mechanism:

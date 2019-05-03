@@ -50,7 +50,25 @@ The Goal right now is to:
 
 - have the theme score going at the menu titles screen (analyze progressions with UChord to get the chord sheets)
 
+- as far as the appeal of gameplay -- these elements will fill out the appeal for now (before we expand on strategy after core platform is done)
 
+  - nice graphics: background, everything, characters
+  
+  - nice music
+  
+  - nice sound fx (mouse actions, and notifications)
+  
+  - game feel (game juice / sugar) MOAR SUGAR
+  
+  - having a large inventory of items to build / interact with
+  
+  - moving the characters around
+  
+  - hiring of workers mechanics in the game - economy
+  
+  - selling back of crops for profit to keep expanding
+  
+  
 
 
 

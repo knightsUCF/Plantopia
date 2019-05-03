@@ -80,7 +80,7 @@ The Goal right now is to:
   
   - the cliffs don't have to be super giant and imposing, they can be irregular, big peak here, comes off there, beach there, like in Moomintrolls, check some illustrations from Tove Jansson
   
-  - along with post processing can make the game feel very "whimsical" (especially with fog), which will be huge in selling the game
+  - along with post processing can make the game feel very "whimsical" (especially with fog, lights, and ambient occlusion), which will be huge in selling the game
   
   
 

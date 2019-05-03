@@ -68,6 +68,8 @@ The Goal right now is to:
   
   - selling back of crops for profit to keep expanding
   
+  - "base upgrades" -- eventual automation and mechanization of farm 
+  
   
 
 

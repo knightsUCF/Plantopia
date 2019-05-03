@@ -32,6 +32,8 @@ The Goal right now is to:
 
 - make the loading screen interesting
 
+- add functionality for menu settings (ex. turn off score, adjust the volume)
+
 
 
 

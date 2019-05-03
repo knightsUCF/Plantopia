@@ -28,6 +28,10 @@ The Goal right now is to:
 
 - pick a color scheme even just for testing
 
+- create a "Loading Screen" just for show - name the Scene - "Loading Screen" (include a base time to show loading, also will be space for later on asset loading, and any other stuff
+
+- make the loading screen interesting
+
 
 
 

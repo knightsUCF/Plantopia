@@ -76,6 +76,12 @@ The Goal right now is to:
   
   - modeling the island or ground, along with character, and menu will be the most important that will be first judged by people
   
+  - that low poly cliff island looked magical in the asset store, try to model something whimsical like that, over cliffs at the edge of an island, for looks, something like you would see in the Moomintrolls, which will require the sea... 
+  
+  - the cliffs don't have to be super giant and imposing, they can be irregular, big peak here, comes off there, beach there, like in Moomintrolls, check some illustrations from Tove Jansson
+  
+  - along with post processing can make the game feel very "whimsical" (especially with fog), which will be huge in selling the game
+  
   
 
 

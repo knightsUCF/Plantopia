@@ -82,7 +82,11 @@ The Goal right now is to:
   
   - along with post processing can make the game feel very "whimsical" (especially with fog, lights, and ambient occlusion), which will be huge in selling the game
   
+  - along with the above, have clouds and birds pass through the sky, that will add a lot to the gameplay, plus interesting texture for the ocean
   
+  - a game where you are on the edge of cliffs near an ocean, that feels very freeing as a game experience, almost like you are going on vacation
+  
+  - how about wind sound fx? and how about ambient nature sounds? birds? trees, nature sound fx? those really bring out a scene
 
 
 

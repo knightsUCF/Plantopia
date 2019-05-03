@@ -68,7 +68,7 @@ The Goal right now is to:
   
   - selling back of crops for profit to keep expanding
   
-  - "base upgrades" -- eventual automation and mechanization of farm 
+  - "base upgrades" -- eventual automation and mechanization of farm (still need people but in different job roles, now need an engineer, or an "operator", plus will need now "circuit boards", this is the unit of what we use to build automation on the farm in terms of where the CPUs are. 
   
   
 

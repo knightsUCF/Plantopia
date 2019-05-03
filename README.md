@@ -102,6 +102,10 @@ The Goal right now is to:
   
   - any sort of elevation, such as cliffs will make the game pop out, and use of some of the commonly unused vertical space
 
+  - study the classy maps of LOTR also, especially the changing landscape as we move around
+  
+  - have to build parking lot for cars of employees that park there, so perhaps we will be connected to some road coming off from the mist, off the edge of the map and into our play area
+  
 
 ///////////////////////////////////////////////////////
 

@@ -72,6 +72,10 @@ The Goal right now is to:
   
   - as the basic mechanisms of the game are finished we can create an optimization pipeline mechanism like in Factorio, especially when we get to the automation stage of the game
   
+  - a very nice menu (HUD)
+  
+  - modeling the island or ground, along with character, and menu will be the most important that will be first judged by people
+  
   
 
 

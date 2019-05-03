@@ -89,6 +89,8 @@ The Goal right now is to:
   - how about wind sound fx? and how about ambient nature sounds? birds? trees, nature sound fx? those really bring out a scene
   
   - a "handmade heaven" birds of a flock fly together forever (a song by Marina - "Handmade Heaven")
+  
+  - a handmade heaven of the style of Tove Jansson with epic gameplay elements
 
 
 ///////////////////////////////////////////////////////

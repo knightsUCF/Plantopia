@@ -24,6 +24,10 @@ The Goal right now is to:
 
 - create a good enough menu for now
 
+- add FPS HUD for optimization
+
+- pick a color scheme even just for testing
+
 
 
 

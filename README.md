@@ -91,6 +91,8 @@ The Goal right now is to:
   - a "handmade heaven" birds of a flock fly together forever (a song by Marina - "Handmade Heaven")
   
   - a handmade heaven of the style of Tove Jansson with epic gameplay elements
+  
+  - classy proportions of game characters like in LOTR
 
 
 ///////////////////////////////////////////////////////

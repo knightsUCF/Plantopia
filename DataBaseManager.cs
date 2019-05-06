@@ -1,3 +1,25 @@
+
+
+
+/*
+
+files which need udpating in code:
+
+- DataBaseManager.cs
+- Data (change to state)
+- ID (not needed now - delete but keep in GitHub, perhaps in a "Library folder")
+- like in the Andre Lamothe book, let's have a Game Library 
+- change Tokens.cs "Data" to "State"
+- each time change something compare / change on github
+- add Singleton.cs to a GameLibrary repo, also include a how to use example, probably with settings, and also tokens, and even state, because we will likely be reusing those in every game
+- once DataBaseManager is configured include really easy to use steps, that can be bundled in other projects, and also include this in the Game Library
+- probably would like some sort of easy invent system (maybe take the Corgi one) instead of rolling your own, and include that in the Game Library, the Corgi engine probably has other good stuffy to put in library, and even has their own game library
+
+
+*/
+
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

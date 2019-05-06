@@ -3,6 +3,10 @@ using System.Collections;
 
 
 
+// probably should be renaimed to State, since this will be unrelated now to DataBaseManager, or any sort of data connected with that class
+
+// we can also initialize a custom starting state in a Start() method of this class -- for example we want the menu buttons toggled off, etc
+
 
 public class Data : Singleton<Data>
 {

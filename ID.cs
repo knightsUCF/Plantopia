@@ -1,5 +1,6 @@
 // https://answers.unity.com/questions/1249093/need-a-persistent-unique-id-for-gameobjects.html
 
+// this is a nice script but we might not be using
 
 
 // Script for generating a unique but persistent string identifier belonging to this 

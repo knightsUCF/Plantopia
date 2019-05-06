@@ -29,20 +29,36 @@ using System.IO;
 
 /*
 
+Game programming rule #1 - there is always a way to do the impossible 
+
+
 Steps from Here
 
 
 1. Make sure what we have here compiles first
 
-2. Add SceneManager
+2. Add SceneManager - identify any unresolved dependencies with SceneManager
 
-3. Figure out where the GetPoints() method is coming from near the SceneManager code
+3. Figure out where the GetPoints() method is coming from near the SceneManager code, and if not from where
 
 4. Determine where the BaseItemScript and ItemsCollection are?
 
 5. Anything else?
 
+6. Line 122 - Are these the only instances of DataBaseManager? - identify which scripts these occur in
 
+7. Figure out how to interface with the DataBaseManager in a simple guide - maybe starting with line 122 is what we need
+
+8. Have a simple how to guide (querrying data) on interfacing with the DataBaseManager - starting a new game, saving a game, loading a game, and perhaps also a way to to interface with the state / data of the variables if needed for functionality or state changes
+
+9. Most of our state stuff will be done in State.cs (named Data.cs now), 
+perhaps if there is a case where we need to do state changes with the items, 
+we can just simply remove or update that item, then the functionality should be decoupled from that, 
+for instance we will probably be calling the update item on any item position change 
+(or at the end of when they get to that position so we don't have to do so in Update, 
+study how this is done with the citybuilder codebase, but in any case, we can update the item position, 
+and then choose whether to update a state change in that scope for functionality, 
+while most of the time we will just need to update the item instance's location)
 
 
 
@@ -70,7 +86,7 @@ Then we can turn that into JSON data with SaveDataBase() a method of DataBaseMAn
 
 - basically understand DataBaseManager and then the derived classes such as BaseItemScript and ItemsCollection, and any others
 
-
+- how do we querry the database?
 
 - now that we have a better grip of the 4 classes in this file, let's go BaseItemScript and ItemsCollection
 
@@ -118,13 +134,17 @@ public class ItemData
 
 // calling in DataBaseManager.cs?
 /*
-DataBaseManager.instance.UpdateItemData(this);
-DataBaseManager.instance.RemoveItem(SceneManager.instance.selectedItem);
-DataBaseManager.instance.UpdateItemData (item);
+
+// are these the only instances of DataBaseManager? - identify which scripts these occur
+
+DataBaseManager.instance.UpdateItemData(this); // why the generic this update?
+DataBaseManager.instance.RemoveItem(SceneManager.instance.selectedItem); // removing item
+DataBaseManager.instance.UpdateItemData (item); // just to update one item? 
 
 
 SceneData sceneData = DataBaseManager.instance.GetScene();
 SceneData sceneData = DataBaseManager.instance.GetEnemyScene();
+
 
 so the GetScene() method in DataBaseManager.cs is our entry point
 and sceneData is our instance of our data

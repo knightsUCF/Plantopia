@@ -16,6 +16,11 @@ this._gameData is an instace of of the GameData class
 
 this._gameData.sceneData.AddOrUpdateItem(item.instanceId, item.itemData.id, item.GetPositionX(), item.GetPositionZ());
 
+batch update can be found in SaveScene(), which iterates with the method AddOrUpdateItem() (that's the one that needs the scene manager)
+
+Then we can turn that into JSON data with SaveDataBase() a method of DataBaseMAnager
+
+- in the above we can get all the items in the scene with the SceneManager's method: GetAllItems()
 
 - basically understand DataBaseManager and then the derived classes such as BaseItemScript and ItemsCollection, and any others
 
@@ -270,7 +275,7 @@ public class DataBaseManager : MonoBehaviour
 
     public SceneData GetScene()
     {
-        if (this._gameData.sceneData.items.Count == 0)
+        if (this._gameData.sceneData.items.Count == 0)  // what is this? do we just automatically assume we are not in a saved game with 0 items in the scene? could this conflict with anything?
         {
             this._gameData.sceneData = JsonUtility.FromJson<SceneData>(this._defaultSceneData);
             this.SaveDataBase();
@@ -298,13 +303,13 @@ public class DataBaseManager : MonoBehaviour
     public void UpdateItemData(BaseItemScript item)
     {
         // this._gameData.sceneData.AddOrUpdateItem(item.instanceId, item.itemData.id, item.GetPositionX(), item.GetPositionZ());
-        // this.SaveDataBase(); //  needs get positions corrected
+        // this.SaveDataBase(); //  needs get positions corrected - in which file is GetPositions()?
     }
 
     public void RemoveItem(BaseItemScript item)
     {
         // this._gameData.sceneData.RemoveItem(item.instanceId);
-        // this.SaveDataBase(); // needs get positions corrected 
+        // this.SaveDataBase(); // needs get positions corrected - in which file is GetPositions()?
     }
 
     public void SaveDataBase()

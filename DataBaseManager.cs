@@ -7,6 +7,24 @@ using System.IO;
 
 /*
 
+Steps from Here
+
+
+1. Make sure what we have here compiles first
+
+2. Add SceneManager
+
+3. Figure out where the GetPoints() method is coming from near the SceneManager code
+
+4. Determine where the BaseItemScript and ItemsCollection are?
+
+5. Anything else?
+
+
+
+
+
+
 note: JsonUtility is a built in class (https://docs.unity3d.com/ScriptReference/JsonUtility.html)
 
 

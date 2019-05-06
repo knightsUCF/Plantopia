@@ -49,6 +49,10 @@ Steps from Here
 
 note: JsonUtility is a built in class (https://docs.unity3d.com/ScriptReference/JsonUtility.html)
 
+1000 JSON data objects take 1 second to load / download
+
+
+
 
 the way of updating data:
 

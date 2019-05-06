@@ -4,7 +4,38 @@ using UnityEngine;
 using System.IO;
 
 
-// basically understand DataBaseManager and then the derived classes such as BaseItemScript and ItemsCollection, and any others
+
+/*
+
+
+the way of updating data:
+
+this._gameData is an instace of of the GameData class
+
+- so which class does AddOrUpdateItem belong to? because i didn't see that in the GameData class? SceneData! So then GameData returning SceneData somehow grants access to this method, that's fine, if we don't understand exactly we can still use this no problem
+
+this._gameData.sceneData.AddOrUpdateItem(item.instanceId, item.itemData.id, item.GetPositionX(), item.GetPositionZ());
+
+
+- basically understand DataBaseManager and then the derived classes such as BaseItemScript and ItemsCollection, and any others
+
+
+
+- now that we have a better grip of the 4 classes in this file, let's go BaseItemScript and ItemsCollection
+
+- first where are they called here?
+
+- BaseItemScript - line 264, needs Scene Manager, i don't believe we've imported that one yet -- should be able to use Scene Manager with no conflicts
+ 
+- The Scene Manager has what allows to GetAllItems()
+
+- BaseItemScript.cs is the data script every item gets
+
+- ItemsCollection.cs seems like the parent script
+
+*/
+
+
 
 
 // from cityopoly codebase in email
@@ -45,6 +76,7 @@ SceneData sceneData = DataBaseManager.instance.GetScene();
 SceneData sceneData = DataBaseManager.instance.GetEnemyScene();
 
 so the GetScene() method in DataBaseManager.cs is our entry point
+and sceneData is our instance of our data
 
 */
 
@@ -53,7 +85,26 @@ so the GetScene() method in DataBaseManager.cs is our entry point
 
 // needs BaseItemScript to operate
 
+/*
 
+4 classes 
+
+
+ItemData - the essential 4 data features: instance ID, item ID, position x, and position z
+SceneData - holds scene item data 
+GameData - one liner simple class - returns one instance of SceneData - perhaps written this way to be expandable to other types of data
+
+
+DataBaseManager - main class, which derives from MonoBehaviour
+
+
+so now we need to add SceneManager - perhaps that will also correct the missing positions for the code below
+
+
+
+
+
+*/
 
 
 [System.Serializable]
@@ -144,8 +195,12 @@ public class DataBaseManager : MonoBehaviour
 
     public static DataBaseManager instance;
 
-    private string gameDataFilePath = "/StreamingAssets/db.json";
+    private string gameDataFilePath = "/GameData/db.json"; // will return error if not properly created in the other class, did we name this GameData?
+    
     private GameData _gameData;
+
+
+    // this is what the actual data looks like!
 
     private string _defaultSceneData =
         "{\"items\":[" + 
@@ -158,16 +213,27 @@ public class DataBaseManager : MonoBehaviour
         "{\"instanceId\":2,\"itemId\":2496,\"posX\":22,\"posZ\":22}," +
         "{\"instanceId\":31911,\"itemId\":3265,\"posX\":12,\"posZ\":12}]}";
 
+
+    // make sure the data is there
+
     void Awake()
     {
         instance = this;
         this.EnsureGameDataFileExists();
     }
 
+    // we should probably just have a string which is the path name instead of all these hardcoded references
+
+    // what if we keep overriding data because we don't have the sring names right?
+
     public void EnsureGameDataFileExists()
     {
+
+        // game data
+
         this._gameData = new GameData();
         this._gameData.sceneData = new SceneData();
+
 
         if (Application.platform == RuntimePlatform.WebGLPlayer)
         {
@@ -191,6 +257,9 @@ public class DataBaseManager : MonoBehaviour
         if (File.Exists(filePath))
         {
             string jsonData = File.ReadAllText(filePath);
+
+            // here is the main line of getting our data 
+
             this._gameData = JsonUtility.FromJson<GameData>(jsonData);
         }
         else
@@ -258,4 +327,3 @@ public class DataBaseManager : MonoBehaviour
 
 
 }
-

@@ -7,6 +7,8 @@ using System.IO;
 
 /*
 
+note: JsonUtility is a built in class (https://docs.unity3d.com/ScriptReference/JsonUtility.html)
+
 
 the way of updating data:
 

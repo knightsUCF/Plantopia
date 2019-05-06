@@ -11,6 +11,14 @@
 
 # 05 03
 
+# Plan of Action and Approach
+
+Basically get the below done except for animating the worker, so get all the easy or doable stuff out of the way first. 
+
+Then try to get basic gameplay going with just the environment instead of the workers. Will probably have to model the environment, or find some good stand in assets, maybe even purchase that lowpoly island, although probably want something realistic, not low poly, in any case get some good enough looking background since graphics are everything, even for testing, and then get to a stage where can have basic gameplay (without characters), and a good looking menu, sounds, and the doable things below. 
+
+Then after that is done, reasses the To Do list for the next stage.
+
 
 The Goal right now is to:
 

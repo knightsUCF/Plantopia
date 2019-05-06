@@ -17,7 +17,7 @@ Basically get the below done except for animating the worker, so get all the eas
 
 Then try to get basic gameplay going with just the environment instead of the workers. Will probably have to model the environment, or find some good stand in assets, maybe even purchase that lowpoly island, although probably want something realistic, not low poly, in any case get some good enough looking background since graphics are everything, even for testing, and then get to a stage where can have basic gameplay (without characters), and a good looking menu, sounds, and the doable things below. 
 
-Then after that is done, reasses the To Do list for the next stage.
+Then after that is done, reasses the To Do list for the next stage. (Putting off modeling farmers for now for fear of slowing down, but can learn how to draw the human pose (The Marvel Way) for now, and then when the time comes draw a figure from the front pose (easy enough), and use the Sebastian Lague tutorial to model that. Should be able to model a few worker this way in the same style (or at least with the same proportions, and nothing fancy for the style of clothing), that could work... 
 
 
 The Goal right now is to:
